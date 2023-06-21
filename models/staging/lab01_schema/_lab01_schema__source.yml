@@ -1,0 +1,15 @@
+version: 2 
+
+sources:
+  - name: scr_lab01_schema  
+    database: lab01_db 
+    schema: lab01_schema  
+    description: Origem usada no treinamento de dbt com a triggo
+    tables:
+      - name: members
+        # apelido para a referencia caso seja necessario
+        description: Todos os membros presentes na como clientes
+
+      - name: my_orders
+        description: Todas as ordens feitas pela loja
+  

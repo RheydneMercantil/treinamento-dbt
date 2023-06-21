@@ -1,0 +1,8 @@
+version: 2
+
+models:
+  - name: stg_lab01_schema__my_orders
+    description: My orders view
+
+  - name: stg_lab01_schema__members
+    description: My orders view

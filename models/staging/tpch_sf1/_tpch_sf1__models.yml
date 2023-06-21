@@ -1,0 +1,14 @@
+version: 2
+
+models:
+  - name: stg_tpch_sf1__customer
+    description: My customer view
+    
+  - name: stg_tpch_sf1__lineitem
+    description: My customer view
+
+  - name: stg_tpch_sf1__nation
+    description: My customer view
+
+  - name: stg_tpch_sf1__orders
+    description: My customer view

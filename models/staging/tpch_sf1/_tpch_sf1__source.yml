@@ -1,0 +1,27 @@
+version: 2 
+
+sources:
+  - name: src_tpch_sf1
+    database: snowflake_sample_data
+    schema: tpch_sf1
+    description: Tabelas exemplos do snowflake para consumo e tratamento de dados
+    tables:
+      - name: customer 
+        description: Todos os clientes da base
+      
+      - name: lineitem 
+        description: Todos os itens relacionados a uma orders
+      
+      - name: nation
+        description: As orders das compras dos clientes 
+      
+      - name: orders
+        description: As orders das compras dos clientes 
+      
+      - name: part
+      
+      - name: partsupp
+      
+      - name: region
+      
+      - name: supplier     
